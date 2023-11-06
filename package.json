@@ -1,0 +1,44 @@
+{
+  "name": "givify",
+  "version": "1.0.0",
+  "description": "A Advance Discord Giveaway System",
+  "main": "index.js",
+  "types": "./src/types/index.d.ts",
+  "scripts": {
+    "start": "node .",
+    "test": "node test/index.js",
+    "tsc": "tsc"
+  },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "giveaways",
+    "winner",
+    "framework",
+    "bot",
+    "discord-giveaways",
+    "discord giveaways",
+    "giveaway",
+    "interaction",
+    "button",
+    "nodejs",
+    "api",
+    "giveaways",
+    "mongoose"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unf6/givify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/unf6/givify/issues"
+  },
+  "homepage": "https://github.com/unf6/givify",
+  "author": "IFML",
+  "license": "ISC",
+  "dependencies": {
+    "deepmerge-ts": "^5.1.0",
+    "discord.js": "^14.13.0",
+    "serialize-javascript": "^6.0.1"
+  }
+}
