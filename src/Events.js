@@ -87,7 +87,7 @@ module.exports = {
  * @event GiveawaysManager#giveawayMemberLeft
  * @param {Giveaway} giveaway The giveaway instance
  * @param {Discord.GuildMember} member The member who remove their reaction giveaway
- * @param {Discord.MessageReaction} reaction The reaction to enter the giveaway
+ * @param {Discord.MessageReaction|Discord.ButtonInteraction} reaction The reaction to enter the giveaway
  *
  * @example
  * // This can be used to add features such as a leave message in DM
