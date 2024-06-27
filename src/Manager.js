@@ -791,7 +791,7 @@ class GiveawaysManager extends EventEmitter {
                  const index = giveaway.entrantIds.indexOf(interaction.member.id);
                  giveaway.entrantIds.splice(index, 1);
 
-                //if (giveaway.buttons.leaveReply) await replyToInteraction(giveaway.buttons.leaveReply);
+                if (giveaway.buttons.leaveReply) await replyToInteraction(giveaway.buttons.leaveReply);
                 this.emit(Events.GiveawayMemberLeft, giveaway, interaction.member, interaction, this, Events);
             }
             await this.editGiveaway(giveaway.messageId, giveaway.data);
